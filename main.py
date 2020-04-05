@@ -3,7 +3,7 @@ from youtube import extract_a_channel_using_playlists as get_video , fill_blanks
 from save import save_to_file
 
 # %% scrap data
-URL="https://www.youtube.com/channel/UCMMJquef91xoOEAWASNZBYA/playlists"#guitar_dd
+URL = "https://www.youtube.com/user/GrabTheGT/playlists"#grab_the_guitar
 data=get_video(URL)
 
 #%%
